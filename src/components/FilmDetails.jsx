@@ -1,6 +1,6 @@
 export default function FilmDetails() {
     return (
-        <div className="fixed w-1/3 top-10 right-10 border-1 border-solid rounded-l-full z-50 text-[var(--white)] border-[var(--white)]">
+        <div className="absolute w-75 sm:w-2/3 md:w-2/5 lg:w-1/3 bottom-10 right-10 border-1 border-solid rounded-l-full z-50 text-[var(--white)] border-[var(--white)]">
             <div className="p-4 pl-24 w-full text-right">
                 <div className="text-xl font-bold truncate">TitleTitleTitleTitleTitleTitleTitle</div>
                 <div className="mt-2">Director</div>

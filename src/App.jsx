@@ -17,9 +17,10 @@ function App() {
   return (
     <>
       <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
-        style={{ backgroundImage: `url(${mainFilmImage})` }}></div>
+        style={{ backgroundImage: `url(${mainFilmImage})` }}>
+        <FilmDetails />
+      </div>
       <Header />
-      <FilmDetails />
       <div>Hello world</div>
     </>
   )
