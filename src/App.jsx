@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import mainFilm from "./assets/img/filmMain.jpg";
 import Header from './components/Header'
-import FilmDetails from './components/FilmDetails'
+import FilmDetails from './components/FilmDetails.jsx'
 
 
 
