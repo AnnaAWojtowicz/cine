@@ -8,7 +8,7 @@ export default function FilmDetails() {
                     Country Year
                 </div>
                 <div className="mt-2">Time</div>
-                <div className="mt-4 flex justify-between">
+                <div className="mt-4 flex justify-end space-x-8">
                     <span className="material-symbols-outlined cursor-pointer border-1 border-solid rounded-full border-[var(--white)]">play_arrow</span>
                     <span className="material-symbols-outlined cursor-pointer border-1 border-solid rounded-full border-[var(--white)]">add</span>
                     <span className="material-symbols-outlined cursor-pointer border-1 border-solid rounded-full border-[var(--white)]">more_horiz</span>
