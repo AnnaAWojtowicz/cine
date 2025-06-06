@@ -11,7 +11,7 @@ export default function FilmSection() {
             <div>Section Title</div>
             <div>
                 <FilmDetails className={sectionRoundFilmDetails} />
-                <FilmDetails className={styling2} />
+                <FilmDetails className={sectionSquareFilmDetails} />
 
             </div>
         </div>
