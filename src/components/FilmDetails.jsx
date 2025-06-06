@@ -1,4 +1,9 @@
 export default function FilmDetails() {
+
+    let mainRoundFilmDetails = "absolute w-75 sm:w-2/3 md:w-2/5 lg:w-1/3 bottom-10 right-10 border-1 border-solid rounded-l-full z-50 border-[var(--white)]";
+    let sectionRoundFilmDetails = "border-1 border-solid rounded-l-full text-[var(--white)] border-[var(--white)]";
+    let sectionSquareFilmDetails = "border-1 border-solid text-[var(--white)] border-[var(--white)]";
+
     return (
         <div className="absolute w-75 sm:w-2/3 md:w-2/5 lg:w-1/3 bottom-10 right-10 border-1 border-solid rounded-l-full z-50 text-[var(--white)] border-[var(--white)]">
             <div className="p-4 pl-24 w-full text-right">

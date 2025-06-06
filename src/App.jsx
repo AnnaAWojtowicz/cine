@@ -5,7 +5,7 @@ import './App.css'
 import mainFilm from "./assets/img/filmMain.jpg";
 import Header from './components/Header'
 import FilmDetails from './components/FilmDetails.jsx'
-
+import FilmSection from './components/FilmSection.jsx'
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <FilmDetails />
       </div>
       <Header />
-      <div>Hello world</div>
+      <FilmSection />
     </>
   )
 }
