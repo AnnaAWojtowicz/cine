@@ -1,4 +1,4 @@
-import FilmDetails from "./filmDetails";
+import FilmDetails from "./filmDetails.jsx";
 
 export default function FilmSection() {
 
