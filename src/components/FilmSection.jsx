@@ -1,4 +1,5 @@
 import FilmDetails from "./filmDetails.jsx";
+import mainFilm from "../assets/img/filmMain.jpg";
 
 export default function FilmSection() {
 
@@ -12,7 +13,7 @@ export default function FilmSection() {
             <div>
                 <FilmDetails className={sectionRoundFilmDetails} />
                 <FilmDetails className={sectionSquareFilmDetails} />
-
+                <FilmDetails className={sectionSquareFilmDetails} />
             </div>
         </div>
     )
