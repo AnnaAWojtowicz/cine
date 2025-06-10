@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import mainFilm from "./assets/img/filmMain.jpg";
 import Header from './components/Header'
-import FilmDetails from './components/FilmDetails.jsx'
+import FilmDetailsMain from './components/FilmDetailsMain.jsx'
 import FilmSection from './components/FilmSection.jsx'
 
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
         style={{ backgroundImage: `url(${mainFilmImage})` }}>
-        <FilmDetails />
+        <FilmDetailsMain />
       </div>
       <Header />
       <FilmSection />

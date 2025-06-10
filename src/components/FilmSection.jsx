@@ -1,19 +1,19 @@
-import FilmDetails from "./filmDetails.jsx";
+import FilmDetails from "./FilmDetails.jsx";
 import mainFilm from "../assets/img/filmMain.jpg";
 
 export default function FilmSection() {
 
-    let sectionRoundFilmDetails = "border-1 border-solid rounded-l-full text-[var(--white)] border-[var(--white)]";
-    let sectionSquareFilmDetails = "border-1 border-solid text-[var(--white)] border-[var(--white)]";
+    let sectionRoundFilmDetails = "sm:w-2/3 md:w-2/5 lg:w-1/4 border-1 border-solid rounded-l-full text-[var(--white)] border-[var(--black)] z-0 mr-4 inline-block";
+    let sectionSquareFilmDetails = "sm:w-2/3 md:w-2/5 lg:w-1/4 border-1 border-solid text-[var(--white)] border-[var(--black)] z-0 mr-4 inline-block";
 
 
     return (
-        <div>
+        <div className="w-full p-4">
             <div>Section Title</div>
             <div>
-                <FilmDetails className={sectionRoundFilmDetails} />
-                <FilmDetails className={sectionSquareFilmDetails} />
-                <FilmDetails className={sectionSquareFilmDetails} />
+                <FilmDetails sectionRoundFilmDetails={sectionRoundFilmDetails} />
+                <FilmDetails sectionSquareFilmDetails={sectionSquareFilmDetails} />
+                <FilmDetails sectionSquareFilmDetails={sectionSquareFilmDetails} />
             </div>
         </div>
     )
