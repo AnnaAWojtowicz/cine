@@ -10,7 +10,7 @@ export default function FilmSection() {
     return (
         <div className="w-full p-4">
             <div className="text-xl font-bold mb-4">Section Title</div>
-            <div className="flex overflow-x-auto gap-4 pb-4 scrollbar-hide">
+            <div className="flex overflow-x-auto gap-1 pb-4 scrollbar-hide">
                 <FilmDetails sectionRoundFilmDetails={sectionRoundFilmDetails} backgroundImage={mainFilm} />
                 <FilmDetails sectionSquareFilmDetails={sectionSquareFilmDetails} backgroundImage={mainFilm} />
                 <FilmDetails sectionSquareFilmDetails={sectionSquareFilmDetails} backgroundImage={mainFilm} />

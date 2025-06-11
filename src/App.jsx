@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center"
+      <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center mb-16"
         style={{ backgroundImage: `url(${mainFilmImage})` }}>
         <FilmDetailsMain />
       </div>
