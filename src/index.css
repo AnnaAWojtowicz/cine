@@ -73,6 +73,7 @@
   --white-800: #ffffff;
   --white-900: #ffffff;
 }
+
 #button_film_details {
   border: 1px solid var(--white);
   transition: all 0.3s ease;
