@@ -19,9 +19,11 @@ function App() {
         <FilmDetailsMain />
       </div>
       <Header />
-      <FilmSection />
-      <FilmSection />
-      <FilmSection />
+      <div className="w-full max-w-7xl mx-auto px-2">
+        <FilmSection sectionName={"New"} />
+        <FilmSection sectionName={"Your collection"} />
+        <FilmSection sectionName={"Most watched"} />
+      </div>
     </>
   )
 }
