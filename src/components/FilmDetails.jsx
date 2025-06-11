@@ -1,11 +1,15 @@
 import FilmSection from "./FilmSection";
 import FilmButton from "./FilmButton";
 
-export default function FilmDetails({ sectionRoundFilmDetails, sectionSquareFilmDetails }) {
+export default function FilmDetails({ sectionRoundFilmDetails, sectionSquareFilmDetails, backgroundImage }) {
 
     return (
 
-        <div className={`text-[var(--black)] ${sectionRoundFilmDetails} ${sectionSquareFilmDetails}`}>
+        <div className={`text-[var(--black)] ${sectionRoundFilmDetails} ${sectionSquareFilmDetails}`}
+            style={{
+                backgroundImage: `url(${backgroundImage})`,
+            }}
+        >
             <div className="p-4 pl-24 w-full text-right">
                 <div className="text-xl font-bold truncate">TitleTitleTitle</div>
                 <div className="mt-2">Director</div>
