@@ -20,7 +20,7 @@ function App() {
         <FilmDetailsMain />
       </div>
 
-      <div className="w-full max-w-7xl mx-auto px-2">
+      <div className="w-full max-w-7xl mx-auto px-2 bg-[var(--white-500)]">
         <FilmSection sectionName={"New"} />
         <FilmSection sectionName={"Your collection"} />
         <FilmSection sectionName={"Most watched"} />
