@@ -4,6 +4,7 @@ import mainFilm from "./assets/img/filmMain.jpg";
 import Header from './components/Header'
 import FilmDetailsMain from './components/FilmDetailsMain.jsx'
 import FilmSection from './components/FilmSection.jsx'
+import Profile from './components/Profile.jsx';
 
 
 function App() {
@@ -16,11 +17,11 @@ function App() {
     <>
       <Header />
 
+      <Profile />
 
 
 
-
-      <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center mb-16"
+      {/* <div className="min-h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center mb-16"
         style={{ backgroundImage: `url(${mainFilmImage})` }}>
         <FilmDetailsMain />
       </div>
@@ -30,7 +31,7 @@ function App() {
         <FilmSection sectionName={"New"} />
         <FilmSection sectionName={"Most watched"} />
         <FilmSection sectionName={"1980s collection"} />
-      </div>
+      </div> */}
     </>
   )
 }
