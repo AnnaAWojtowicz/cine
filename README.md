@@ -55,3 +55,5 @@ http://localhost:5173
 Coolors (n.d.).Retrived 03.06.2025 from: https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff;
 
 ### Photos:
+
+Cinnamon roll (17.01.2017). No title [A portrait of a girl]. Retrived 12.06.2025 from: https://unsplash.com/photos/woman-in-white-polo-shirt-standing-on-road-during-daytime-mXTsIYsLhQY;
