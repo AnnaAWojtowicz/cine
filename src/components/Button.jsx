@@ -1,7 +1,7 @@
 export default function Button() {
     return (
-        <button className="bg-[var(--primary)] text-[var(--white-500)] px-4 py-2 rounded hover:bg-[var(--primary-dark)] transition duration-300">
-            Click Me
+        <button id="button_general" className="bg-[var(--white)] text-[var(--black-500)] px-4 py-2 rounded transition duration-300">
+            Change
         </button>
     )
 }
