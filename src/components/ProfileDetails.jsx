@@ -1,5 +1,6 @@
 import Button from "./Button.jsx";
 
+
 export default function ProfileDetails({ caption, info }) {
     return (
         <div>
