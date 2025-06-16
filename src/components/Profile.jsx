@@ -21,6 +21,7 @@ export default function Profile() {
                     <ProfileDetails caption={"Email:"} info={"lola@gmail.com"} />
                     <ProfileDetails caption={"Your subscription:"} info={"Standard"} />
                     <ProfileDetails caption={"Next payment:"} info={`31.12.${year}`} />
+                    <ProfileDetails caption={"Payment method:"} info={"**** **** **** 1234"} />
                 </div>
 
             </div>
