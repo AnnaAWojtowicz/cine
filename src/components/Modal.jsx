@@ -3,8 +3,9 @@ export default function Modal({ children, isOpen, onClose }) {
 
 
     return (
-        <div className="">
-
-        </div>
+        <dialog className="" open>
+            {children}
+            <form method="dialog"><button>Close</button></form>
+        </dialog>
     )
 }
