@@ -1,10 +1,10 @@
 
-export default function Modal({ children, isOpen, onClose }) {
+export default function Modal({ ref, children }) {
 
 
     return (
-        <dialog className="" open>
-            {children}
+        <dialog ref={ref} className="">
+            {children} this is my modal
             <form method="dialog"><button>Close</button></form>
         </dialog>
     )
