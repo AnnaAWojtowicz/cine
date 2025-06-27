@@ -1,7 +1,3 @@
-import { useState, useRef } from "react";
-import Modal from "./Modal.jsx";
-
-
 
 
 export default function ProfileDetails({ caption, info, buttonGeneralClassName, onChangeClick }) {

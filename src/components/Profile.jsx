@@ -29,12 +29,12 @@ export default function Profile() {
                         {/* <Button buttonGeneralClassName="mt-4" /> */}
                     </div>
                     <div className="mt-8">
-                        <ProfileDetails caption={"Username:"} info={"Lola"} onChangeClick={handleOpenModal} />
-                        <ProfileDetails caption={"Password:"} info={"LolaIsCool!123"} onChangeClick={handleOpenModal} />
-                        <ProfileDetails caption={"Email:"} info={"lola@gmail.com"} onChangeClick={handleOpenModal} />
-                        <ProfileDetails caption={"Your subscription:"} info={"Standard"} onChangeClick={handleOpenModal} />
-                        <ProfileDetails caption={"Next payment:"} info={`31.12.${year}`} onChangeClick={handleOpenModal} />
-                        <ProfileDetails caption={"Payment method:"} info={"**** **** **** 1234"} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Username"} info={"Lola"} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Password"} info={"LolaIsCool!123"} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Email"} info={"lola@gmail.com"} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Your subscription"} info={"Standard"} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Next payment"} info={`31.12.${year}`} onChangeClick={handleOpenModal} />
+                        <ProfileDetails caption={"Payment method"} info={"**** **** **** 1234"} onChangeClick={handleOpenModal} />
                     </div>
                 </div>
             </div>
