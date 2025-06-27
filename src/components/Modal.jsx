@@ -1,9 +1,12 @@
+import { useState, useRef } from "react";
 import Button from "./Button.jsx"
 
 
-export default function Modal({ isOpen, caption, info, onClose }) {
+export default function Modal({ isOpen, caption, info, onClose, onConfirm }) {
 
     if (!isOpen) return null;
+
+    const newValueRef = useRef();
 
     return (
         <>
@@ -16,9 +19,9 @@ export default function Modal({ isOpen, caption, info, onClose }) {
                     <h2 className="text-xl font-semibold mb-4">Change your {caption}</h2>
                     <p>Your old {caption}: <strong> {info}</strong></p>
                     <label>Your new {caption}</label>
-                    <input className="border-1 border-solid border-[var(--platinum-100)] ml-4 focus:border-[var(--orange-web)] focus:bg-[var(--platinum-700)] focus:outline-none"></input>
+                    <input ref={newValueRef} className="border-1 border-solid border-[var(--platinum-100)] ml-4 focus:border-[var(--orange-web)] focus:bg-[var(--platinum-700)] focus:outline-none"></input>
                     <div className="flex justify-between items-center mt-4 gap-4">
-                        <Button buttonInput2="Confirm" />
+                        <Button buttonInput2="Confirm" onClick={() => onConfirm(newValueRef.current.value)} />
                         <Button buttonInput1="Dismiss" onClick={onClose} />
                     </div>
                 </div>
